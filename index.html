@@ -42,6 +42,18 @@
 
 <body id="page-top">
 
+<!-- COMIENZO NAVEGACION LATERAL -->
+    <div data-spy="affix" id="dot-nav">
+        <ul>
+          <li class="awesome-tooltip active" title="Así&nbsp;Funciona"><a href="#home"></a></li>
+          <li class="awesome-tooltip" title="¿Por&nbsp;qué&nbsp;Viaedu?"><a href="#about"></a></li>
+          <li class="awesome-tooltip" title="Mucho&nbsp;más..."><a href="#projects"></a></li>
+          <li class="awesome-tooltip" title="+2000&nbsp;chicos..."><a href="#2000chicos"></a></li>
+          <li class="awesome-tooltip" title="Elegí&nbsp;tu&nbsp;versión."><a href="#elegituversion"></a></li>
+          <li class="awesome-tooltip" title="Confían&nbsp;en&nbsp;nosotros."><a href="#confianza"></a></li>
+        </ul>
+    </div>
+<!-- FIN NAVEGACION -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,17 +61,18 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="svgs/viaedu-footer.svg"></a>
+                <!-- VER QUE ONDA -->
+                <a class="navbar-brand page-scroll" href="#page-top"><img src=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#">Padres</a>
+                        <a href="#">Padres</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">Contacto</a>
+                        <a href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -92,54 +105,64 @@
                 </div>
             </div>
         </div>
+        <div id="home"></div>
     </section>
 
     <section id="bggris">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
-                    <h2 id="h2cont2">Así funciona.</h2>
+                    <h2 class="h2cont2">Así funciona.</h2>
                     <!-- CARROUSEL -->
                     <div class="container">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        
                             <ul class="nav nav-pills nav-justified">
-                              <li data-target="#myCarousel" data-slide-to="0" class="active" id="pillsmodif"><a href="#"><span id="headcarousel"><span id="fuenterosa">01</span> Completás el test.</span></a></li>
-                              <li data-target="#myCarousel" data-slide-to="1"><a href="#"><span id="headcarousel"><span id="fuenterosa">02</span> Recibís recomendaciones.</span></a></li>
-                              <li data-target="#myCarousel" data-slide-to="2"><a href="#"><span id="headcarousel"><span id="fuenterosa">03</span> Te informás y decidís.</span></a></li>
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><span id="headcarousel"><span id="fuenterosa">01</span> Completás el test.</span></a></li>
+                                <li data-target="#myCarousel" data-slide-to="1"><a href="#"><span id="headcarousel"><span id="fuenterosa">02</span> Recibís recomendaciones.</span></a></li>
+                                <li data-target="#myCarousel" data-slide-to="2"><a href="#"><span id="headcarousel"><span id="fuenterosa">03</span> Te informás y decidís.</span></a></li>
                             </ul>
-                        </div>
+
                           <!-- Wrapper for slides -->
-                          <div class="carousel-inner">                         
+                          <div class="carousel-inner">
+                          
                             <div class="item active">
                               <img src="svgs/fondocarru.png">
                                <div class="carousel-caption">
                                 <img src="svgs/tab-01.svg" id="tab01svg">
-                                <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">te lleva unos 50 minutos, y lo podés retomar en diferentes momentos.</span></p>
-                                <div id="cleaner"></div>
+                                    <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">te lleva unos 50 minutos, y lo podés retomar en diferentes momentos.</span></p>
+                                    <div id="cleaner"></div>
                               </div>
-                            </div><!-- End Item -->                     
+                            </div><!-- End Item -->
+                     
                              <div class="item">
                               <img src="svgs/fondocarru.png">
                                <div class="carousel-caption">
-                                <h3>Headline</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <a href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank" class="label label-danger">Bootstrap 3 - Carousel Collection</a></p>
+                                <img src="svgs/tab-01.svg" id="tab01svg">
+                                    <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">Slider2.</span></p>
+                                    <div id="cleaner"></div>
                               </div>
-                            </div><!-- End Item -->  
+                            </div><!-- End Item -->
+                            
                             <div class="item">
-                              <img src="http://placehold.it/909x400/dddddd/333333">
+                              <img src="svgs/fondocarru.png">
                                <div class="carousel-caption">
-                                <h3>Headline</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <a href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank" class="label label-danger">Bootstrap 3 - Carousel Collection</a></p>
+                                <img src="svgs/tab-01.svg" id="tab01svg">
+                                    <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">Slider3.</span></p>
+                                    <div id="cleaner"></div>
                               </div>
-                            </div><!-- End Item -->   
+                            </div><!-- End Item -->
+                                    
                           </div><!-- End Carousel Inner -->
                     </div>
                     <!-- ENDOF CARROUSEL -->
-
-                    <a href="#" id="botonhacertest">¡Hacer el Test!</a>
+                    <div id="auxbotonhacertest1">
+                        <a href="#" id="botonhacertest">¡Hacer el Test!</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="about"></div>
     </section>
 
     <section id="bggris">
@@ -176,13 +199,14 @@
                 </div>
             </div>
         </div>
+        <div id="projects"></div>
     </section>
 
     <section id="bggris">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
-                    <h2 id="h2cont2">Mucho más<br>que un simple resultado.</h2>
+                    <h2 class="h2cont2">Mucho más<br>que un simple resultado.</h2>
                     <div id="contenedorwhy">
                         <img src="svgs/perfil.svg" id="iconomas">
                         <p><span id="fuenterosa">La descripción<br>de tu perfil.</span></p>
@@ -199,13 +223,14 @@
                 </div>
             </div>
         </div>
+        <div id="2000chicos"></div>
     </section>
 
     <section id="bggris">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco5">
-                    <h2 id="h2cont2">+2000 chicos<br>
+                    <h2 class="h2cont2">+2000 chicos<br>
                     ya hicieron el test</h2>
                     <div id="testimonio">
                         <img src="svgs/quotes.svg" id="quotessvg">
@@ -236,6 +261,7 @@
                 </div>
             </div>
         </div>
+        <div id="elegituversion">
     </section>
 
     <section id="bgrosa">
@@ -278,6 +304,7 @@
                 </div>
             </div>
         </div>
+        <div id="confianza"></div>
     </section>
 
     <section id="bggris">
@@ -285,7 +312,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
                     <h2 id="h2confianza">Instituciones que confían en Viaedu</h2>
-                    <div id="logosinst">
+                    <div>
                         <img src="svgs/logo-wayra-01.svg" id="logoconfianza">
                         <img src="svgs/logo-wayra-01.svg" id="logoconfianza">
                         <div id="cleaner"></div>
@@ -297,18 +324,19 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
+            <img src="svgs/viaedu-footer.svg" id="footerviaedu">
             <ul class="list-inline">
                 <li>
-                    <a href="#">Privacy</a>
+                    <a href="#" id="footerlinks">SOBRE NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="#">Terms</a>
+                    <a href="#" id="footerlinks">PREGUNTAS FRECUENTES</a>
                 </li>
                 <li>
-                    <a href="#">FAQ</a>
+                    <a href="#" id="footerlinks">CONTACTANOS</a>
                 </li>
             </ul>
+            <a href="#"><img src="svgs/twitter-viaedu.svg" id="twviaedu"></a><a href="#"><img src="svgs/facebook-viaedu.svg" id="fbviaedu"></a>
         </div>
     </footer>
 
@@ -325,7 +353,8 @@
     <script src="js/new-age.min.js"></script>
 
     <!-- ADDONS -->
-    <script src="js/carrousel.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/navigation.js"></script>
 
 </body>
 
