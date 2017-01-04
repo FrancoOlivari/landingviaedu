@@ -1,8 +1,22 @@
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: url("../svgs/head-viaedu00.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
 #h1header{
 	text-align: center;
 	font-size: 120px;
+	margin-top: -15%;
 }
 #bggris{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+}
+#bggrisfinal{
 	background-color: #E6E6E6;
 	box-sizing: border-box;
 }
@@ -11,6 +25,7 @@
 	padding-bottom: 5%;
 	margin-top: -20%;
 	text-align: center;
+	box-sizing: border-box;
 }
 #pcontenedor1{
 	color: rgb(86, 66, 115);
@@ -44,14 +59,14 @@
 	font-size: 60px;
 	text-align: left;
 	padding-left: 8%;
-	padding-top: 3%;
+	padding-top: 5%;
 	padding-bottom: 3%;
 	font-weight: 600;
 	color: rgb(86, 66, 115);
 }
 #auxbotonhacertest1{
 	padding-top: 2%;
-	width: 83%;
+	width: 100%;
 }
 /* carrousel css */
 #contenedorblanco2 .container{
@@ -87,10 +102,10 @@ div .carousel-inner{
 #myCarousel a{
 	color: rgb(87, 67, 116);
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
+#mainNav > li > a:hover,
+#mainNav > li > a:focus {
   text-decoration: none;
-  background-color: #FFF;
+  background-color: transparent;
   color: rgb(87, 67, 116);
   border-bottom: solid 4px;
   border-color: #6461ff;
@@ -99,7 +114,7 @@ div .carousel-inner{
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: rgb(87, 67, 116);
-  background-color: #FFF;
+  background-color: transparent;
   border-bottom: solid 4px;
   border-color: #6461ff;
 }
@@ -123,8 +138,16 @@ div .carousel-inner{
   text-align: left;
   text-shadow: none;
 }
+#auxul{
+	padding-left: 3.5%;
+}
 #tab01svg{
 	width: 40%;
+	float: left;
+	padding-right: 5%;
+}
+#tab03svg{
+	width: 30%;
 	float: left;
 	padding-right: 5%;
 }
@@ -139,7 +162,7 @@ div .carousel-inner{
 /* endof carrousel css */
 
 #contenedorblanco3{
-	background: url("../svgs/img-cel.jpg");
+	background: url("../svgs/img-cel.jpg") no-repeat center center;
 	padding-bottom: 5%;
 	margin-top: -13%;
 	text-align: left;
@@ -189,10 +212,9 @@ div .carousel-inner{
 	padding-top: 2%;
 }
 #imagentestimonio{
-	width: 20%;
+	width: 30%;
 	float: left;
-	margin-left: -9%;
-	margin-top: 2.5%;
+	margin-left: -15%;
 }
 #quotessvg{
 	width: 7%;
@@ -250,7 +272,7 @@ div .carousel-inner{
 	float: left;
 	border-radius: 10px;
 	text-align: center;
-	padding: 3% 0;
+	padding: 1% 0 3%;
 	margin-top: 2%;
 }
 #contenedorinrosa2{
@@ -298,21 +320,31 @@ div .carousel-inner{
 	padding: 13% 0;
 }
 #botonhacertest2{
-	padding: 1% 5%;
+	padding: 2% 15%;
 	background-color:#ffc352;
 	border-radius: 8px;
 	font-size: 26px;
 	text-decoration: none;
 	color: rgb(86, 66, 115);
-	font-weight: 600;
+	font-weight: 4	00;
 }
 #h2confianza{
 	color: rgb(179, 179, 179);
 	font-weight: 600;
+	padding-top: 5%;
+}
+#logosconfianza{
+	padding-top: 3.5%;
+	text-align: center;
+}
+.auxconfianza{
+	margin-right: 10%;
 }
 #logoconfianza{
 	width: 30%;
-	text-align: center;
+}
+#logoconfianzad{
+	width: 25%;
 }
 #footerviaedu{
 	margin-top: 1%;
@@ -324,18 +356,24 @@ div .carousel-inner{
 	font-weight: 600;
 }
 #twviaedu{
-	width: 12%;
+	width: 10%;
 	margin-right: 2%;
 }
 #fbviaedu{
-	width: 12%;
+	width: 10%;
 	margin-left: 2%;
+}
+#espaciofooter1{
+	padding-top: 2%;
+}
+#espaciofooter2{
+	padding-bottom: 2%;
 }
 footer{
 	background-color: rgb(51, 51, 51);
 }
 footer ul{
-	padding: 2% 0;
+	padding: 3% 0;
 }
 footer ul li{
 	margin-left: 2%;
@@ -344,7 +382,7 @@ footer ul li{
 /* NAVEGACION LATERAL */
 #dot-nav{    
 	right: 10px;
-	top: 50%;
+	top: 40%;
 	margin-top: -50px;
 	height: 100px;
 	z-index: 999;
@@ -357,8 +395,8 @@ footer ul li{
 }
 #dot-nav li {
 	position: relative;
-	background-color: #bdc3c7;
-	border:3px solid #bdc3c7;
+	background-color: #FFF;
+	border:3px solid #FFF;
 	border-radius: 15px 15px 15px 15px;
 	cursor: pointer;
 	padding: 5px;
@@ -392,3 +430,431 @@ footer ul li{
     border-left:5px solid #fa4b8b;
 }
 /* FIN NAVEGACION LATERAL */
+nav{
+	background-color: none;
+}
+#logoviaedusvg{
+	width: 12%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+ 	text-decoration: none;
+	background-color: transparent;
+}
+#formatolinksnav{
+	color: white;
+	font-size: 18px;
+}
+#espacionav{
+	margin-top: 0.8%;
+	float: right;
+	padding-right: 10%;
+}
+#pantallas{
+	margin: 2% 0;
+	text-align: center;
+}
+#pantallassvg{
+	width: 90%;
+}
+.invisibleres{
+	display: inline;
+}
+.visibleres{
+	display: none;
+}
+.lista {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.lista > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media (max-width: 768px) {
+  .invisibleres{
+    display: none;
+  }
+  .visibleres{
+    display: inline;
+ }
+ header {
+  background: url("../svgs/head-viaedu00.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+#h1header{
+	text-align: center;
+	font-size: 60px;
+	margin-top: -35%;
+	padding-bottom: 15%;
+}
+nav{
+	display: table;
+	margin: auto;
+}
+nav ul{
+	background-color: none;
+	
+}
+#auxnav{
+	width: 100%;
+	text-align: center;
+}
+nav ul li{
+	float: left;
+	display: inline;
+}
+#logoviaedusvgres{
+	width: 17%;
+	display: inline;
+	margin: auto;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+ 	text-decoration: none;
+	background-color: transparent;
+}
+#formatolinksnav{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+#auxrestop{
+	text-align: center;
+}
+#espacionav{
+	margin-top: 0.8%;
+	float: none;
+	list-style: none;
+	padding-right: 0;
+}
+#contenedorblanco{
+	background-color: #FFF;
+	padding-bottom: 7%;
+	margin-top: -45%;
+	text-align: center;
+	width: 95%;
+	margin-left: 2.5%;
+}
+#pcontenedor1{
+	color: rgb(86, 66, 115);
+	font-size: 24px;
+	padding: 5% 0 2%;
+	line-height: 1.8;
+	font-weight: 600;
+}
+#span1cont1{
+	font-weight: 700;
+}
+#span2cont1{
+	color:rgb(255,75,139);
+}
+#botonhacertest{
+	padding: 1% 5%;
+	background-color:rgb(255,75,139);
+	border-radius: 8px;
+	font-size: 26px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+#contenedorblanco2{
+	background-color: #FFF;
+	padding-bottom: 7%;
+	margin-top: -48%;
+	text-align: center;
+	width: 95%;
+	margin-left: 2.5%;
+}
+.h2cont2{
+	font-size: 60px;
+	text-align: center;
+	padding-left: 0;
+	padding-top: 8%;
+	padding-bottom: 3%;
+	font-weight: 600;
+	color: rgb(86, 66, 115);
+}
+#auxbotonhacertest1{
+	padding-top: 2%;
+	width: 83%;
+}
+#contenedorblanco3{
+	background: url("../svgs/img-cel.jpg") no-repeat center center;
+	padding-bottom: 5%;
+	margin-top: -48%;
+	text-align: left;
+	width: 95%;
+	margin-left: 2.5%;
+}
+#contenedorblanco3 h2{
+	padding: 15% 0 12%;
+	padding-left: 0;
+	color: white;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+}
+#contenedorblanco4{
+	background-color: #FFF;
+	padding-bottom: 5%;
+	margin-top: -48%;
+	text-align: center;
+	padding-top: 5%;
+	width: 95%;
+	margin-left: 2.5%;
+}
+#contenedorwhy{
+	width: 100%;
+	float: none;
+}
+#iconowhy{
+	width: 20%;
+}
+#tamañowhy{
+	font-size: 15px;
+	color: rgb(153, 153, 153);
+	font-family: 'Ubuntu';
+}
+#contenedorwhy #fuenterosa{
+	font-weight: 600;
+}
+#iconomas{
+	width: 30%;
+}
+#pantallas{
+	margin: 2% 0;
+	padding-bottom: 2%;
+	text-align: center;
+}
+#testimonio{
+	width: 85%;
+	border: solid 2px rgb(240, 240, 240);
+	border-radius: 10px;
+	padding: 2.5% 0;
+	text-align: left;
+	margin: auto;
+}
+#testimonio p{
+	padding-left: 17.5%;
+	padding-top: 2%;
+}
+#imagentestimonio{
+	width: 25%;
+	float: left;
+	margin-left: -12.5%;
+}
+#quotessvg{
+	width: 15%;
+	float: right;
+	margin-right: 3%;
+}
+#nombretesti{
+	color: #6461ff;
+	font-weight: 600;
+}
+#escuelatesti{
+	color: #fa4b8b;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1;
+}
+#textotesti{
+	color: rgb(175, 175, 175);
+	font-weight: 500;
+	font-size: 20px;
+	font-family: 'Ubuntu';
+}
+#testimonio p{
+	width: 90%;
+}
+#espacioextra{
+	height: 20px;
+}
+#contenedorblanco5{
+	background-color: #FFF;
+	padding-bottom: 9%;
+	margin-top: -48%;
+	text-align: center;
+	width: 95%;
+	margin-left: 2.5%;
+}
+#bgrosa{
+	margin-top: -48%;
+	background-color: #fa4b8b;
+	box-sizing: border-box;
+}
+#elegituver{
+	text-align: center;
+	margin-top: -5%;
+	padding-top: 7%;
+	padding-bottom: 10%;
+	font-size: 60px;
+	font-weight: 600;
+	color: white;
+}
+#contenedorrosa1{
+	margin-top: 10%;
+	background-color: #fa4b8b;
+}
+#contenedorinrosa{
+	background-color: #FFF;
+	width: 95%;
+	float: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3% 0 7%;
+	margin-top: 2%;
+	margin-left: 2.5%;
+	margin-bottom: 5%;
+}
+#contenedorinrosa2{
+	background-color: #FFF;
+	width: 95%;
+	float: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3% 0 7%;
+	margin-left: 2.5%;
+	margin-bottom: 5%;
+}
+#contenedorinrosa2 p{
+	padding: 5% 0;
+}
+.espacioextra2{
+	margin-right: 5%;
+}
+#promo1{
+	width: 65%;
+}
+#promo2{
+	margin-top: 3%;
+	width: 60%;
+}
+#txtamarillo{
+	font-size: 54px;
+	color: #ffc352;
+}
+#txtrosa{
+	font-size: 14px;
+	font-weight: 500;
+	color: #fa4b8b;
+}
+#txtazul{
+	font-size: 26px;
+	font-weight: 600;
+	color: #6461ff;
+}
+#txtgris{
+	font-size: 14px;
+	font-family: 'Ubuntu';
+	color: rgb(153, 153, 153);
+	line-height: 1;
+}
+#primerp{
+	padding: 0 0 4%;
+}
+#botonhacertest2{
+	padding: 2% 15%;
+	background-color:#ffc352;
+	border-radius: 8px;
+	font-size: 26px;
+	text-decoration: none;
+	color: rgb(86, 66, 115);
+	font-weight: 4	00;
+}
+#h2confianza{
+	color: rgb(179, 179, 179);
+	font-weight: 600;
+	padding-top: 8%;
+	font-size: 40px;
+}
+#logosconfianza{
+	padding-top: 3.5%;
+	text-align: center;
+}
+.auxconfianza{
+	margin-right: 10%;
+}
+#logoconfianza{
+	margin-left: 10%;
+	width: 70%;
+}
+#logoconfianzad{
+	margin-top: 5%;
+	width: 65%;
+}
+#bggrisfinal{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+	margin-bottom: -20%;
+}
+#footerviaedu{
+	margin-top: 1%;
+	margin: auto;
+	width: 15%;
+}
+#footerlinks{
+	font-size: 18px;
+	font-weight: 600;
+}
+#twviaedu{
+	width: 35%;
+	margin-right: 2%;
+}
+#fbviaedu{
+	width: 35%;
+	margin-left: 2%;
+}
+#espaciofooter1{
+	padding-top: 2%;
+}
+#espaciofooter2{
+	padding-bottom: 2%;
+}
+footer{
+	background-color: rgb(51, 51, 51);
+}
+footer ul{
+	padding: 0;
+}
+footer ul li{
+	margin-left: 0;
+	margin-right: 0;
+}
+.lista{
+	list-style: none;
+	padding: 5% 0;
+	margin: 0;
+}
+.lista > li {
+  display: inherit;
+  padding: 1%;
+  padding-right: 0;
+  padding-left: 0;
+}
+#carruresph3{
+	font-size: 20px;
+}
+#tabresp1{
+	width: 50%;
+}
+#espacioextracarruresp{
+	padding-top: 2%;
+}
+#botonhacertestcarrures{
+	padding: 1% 5%;
+	background-color:rgb(255,75,139);
+	border-radius: 8px;
+	font-size: 26px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	margin-top: 5%;
+}

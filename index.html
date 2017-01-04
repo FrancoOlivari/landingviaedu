@@ -43,7 +43,7 @@
 <body id="page-top">
 
 <!-- COMIENZO NAVEGACION LATERAL -->
-    <div data-spy="affix" id="dot-nav">
+    <div data-spy="affix" id="dot-nav" class="invisibleres">
         <ul>
           <li class="awesome-tooltip active" title="Así&nbsp;Funciona"><a href="#home"></a></li>
           <li class="awesome-tooltip" title="¿Por&nbsp;qué&nbsp;Viaedu?"><a href="#about"></a></li>
@@ -54,40 +54,33 @@
         </ul>
     </div>
 <!-- FIN NAVEGACION -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <!-- VER QUE ONDA -->
-                <a class="navbar-brand page-scroll" href="#page-top"><img src=""></a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">Padres</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
     <header>
+        <div id="auxrestop">
+            <img src="svgs/logo-viaedu-resp.svg" id="logoviaedusvgres" class="visibleres">
+        </div>
+    <nav>
+        <a href="#"><img src="svgs/logo-viaedu.svg" id="logoviaedusvg" class="invisibleres"></a>
+        <div id="auxnav">
+            <ul class="nav navbar-nav" id="espacionav">
+                <li>
+                    <a href="#" id="formatolinksnav">PADRES</a>
+                </li>
+                <li>
+                     <a href="#" id="formatolinksnav">COLEGIOS</a>
+                </li>
+            </ul>
+        <div id="cleaner"></div>
+        </div>
+    </nav>
+    <div id="cleaner"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-offset-1">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1 id="h1header">Descubrí qué estudiar y en dónde.</h1>
+                            <h1 id="h1header">Descubrí<br class="visibleres"><span class="invisibleres"> </span>qué estudiar<br class="visibleres"><span class="invisibleres"> </span>y en dónde</h1>
                         </div>
                     </div>
                 </div>
@@ -99,7 +92,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco">
-                    <p id="pcontenedor1">Definir tu próximo estudio no es una decisión fácil.<br>
+                    <p id="pcontenedor1">Definir tu próximo estudio<br class="visibleres"><span id="invisibleres"> </span>no es una decisión fácil.<br>
                     <span id="span1cont1">Descubrí con nuestro <span id="span2cont1">test vocacional online</span> cuales son tus opciones.</span></p>
                     <a href="#" id="botonhacertest">¡Hacer el Test!</a>
                 </div>
@@ -112,17 +105,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
-                    <h2 class="h2cont2">Así funciona.</h2>
+                    <h2 class="h2cont2">Así funciona</h2>
                     <!-- CARROUSEL -->
+                    <div class="visibleres">
+                        <h3 class="carruresph3"><span id="fuenterosa">01</span> Completás el test.</span></h3>
+                        <img src="svgs/tab-01.svg" id="tabresp1">
+                        <p>Desde la compu o el celu, <span id="fuenterosa">te lleva unos 50 minutos, y lo podés retomar en diferentes momentos.</span></p>
+                        <div id="espacioextracarruresp">
+                            <h3 class="carruresph3"><span id="fuenterosa">02</span> Recibís recomendaciones.</span></h3>
+                            <img src="svgs/tab-02.svg" id="tabresp1">
+                            <p>De carreras e instituciones puntuales, <span id="fuenterosa">ordenadas por afinidad con vos.</span></p>
+                        </div>
+                        <div id="espacioextracarruresp">
+                            <h3 class="carruresph3"><span id="fuenterosa">03</span> Te informás y decidís.</span></h3>
+                            <img src="svgs/tab-03.svg" id="tabresp1">
+                            <p>Con información que te damos, <span id="fuenterosa">para que elijas con más seguridadqué y dónde estudiar.</span></p>
+                        </div>
+                        <a href="#" id="botonhacertestcarrures">¡Hacer el Test!</a>
+                    </div>
+                    <div class="invisibleres">
                     <div class="container">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        
-                            <ul class="nav nav-pills nav-justified">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><span id="headcarousel"><span id="fuenterosa">01</span> Completás el test.</span></a></li>
-                                <li data-target="#myCarousel" data-slide-to="1"><a href="#"><span id="headcarousel"><span id="fuenterosa">02</span> Recibís recomendaciones.</span></a></li>
-                                <li data-target="#myCarousel" data-slide-to="2"><a href="#"><span id="headcarousel"><span id="fuenterosa">03</span> Te informás y decidís.</span></a></li>
-                            </ul>
-
+                            <div id="auxul">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><span id="headcarousel"><span id="fuenterosa">01</span> Completás el test.</span></a></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"><a href="#"><span id="headcarousel"><span id="fuenterosa">02</span> Recibís recomendaciones.</span></a></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"><a href="#"><span id="headcarousel"><span id="fuenterosa">03</span> Te informás y decidís.</span></a></li>
+                                </ul>
+                            </div>
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
                           
@@ -138,8 +148,8 @@
                              <div class="item">
                               <img src="svgs/fondocarru.png">
                                <div class="carousel-caption">
-                                <img src="svgs/tab-01.svg" id="tab01svg">
-                                    <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">Slider2.</span></p>
+                                <img src="svgs/tab-02.svg" id="tab01svg">
+                                    <p id="pcaption">De carreras e instituciones puntuales, <span id="fuenterosa">ordenadas por afinidad con vos.</span></p>
                                     <div id="cleaner"></div>
                               </div>
                             </div><!-- End Item -->
@@ -147,13 +157,14 @@
                             <div class="item">
                               <img src="svgs/fondocarru.png">
                                <div class="carousel-caption">
-                                <img src="svgs/tab-01.svg" id="tab01svg">
-                                    <p id="pcaption">Desde la compu o el celu, <span id="fuenterosa">Slider3.</span></p>
+                                <img src="svgs/tab-03.svg" id="tab03svg">
+                                    <p id="pcaption">Con información que te damos, <span id="fuenterosa">para que elijas con más seguridadqué y dónde estudiar.</span></p>
                                     <div id="cleaner"></div>
                               </div>
                             </div><!-- End Item -->
                                     
                           </div><!-- End Carousel Inner -->
+                    </div>
                     </div>
                     <!-- ENDOF CARROUSEL -->
                     <div id="auxbotonhacertest1">
@@ -185,7 +196,7 @@
                         <span id="tamañowhy">Lo hacés sin moverte<br> de tu casa</p>
                     </div>
                     <div id="contenedorwhy">
-                        <img src="svgs/tiempo.ai" id="iconowhy">
+                        <img src="svgs/tiempo.svg" id="iconowhy">
                         <p><span id="fuenterosa">A tu ritmo</span><br>
                         <span id="tamañowhy">Empezás cuando querés,<br>
                         terminás cuando querés</span></p></p>
@@ -206,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
-                    <h2 class="h2cont2">Mucho más<br>que un simple resultado.</h2>
+                    <h2 class="h2cont2">Mucho más<br>que un simple resultado</h2>
                     <div id="contenedorwhy">
                         <img src="svgs/perfil.svg" id="iconomas">
                         <p><span id="fuenterosa">La descripción<br>de tu perfil.</span></p>
@@ -218,6 +229,10 @@
                     <div id="contenedorwhy">
                         <img src="svgs/extras.svg" id="iconomas">
                         <p><span id="fuenterosa">Recursos adicionales:<br>notas, opiniones y más...</span></p>
+                    </div>
+                    <div id="pantallas">
+                        <img src="svgs/display-pantallas.png" id="pantallassvg" class="invisibleres">
+                        <img src="svgs/display-pantalla-solo.png" id="pantallassvg" class="visibleres">
                     </div>
                     <a href="#" id="botonhacertest">¡Hacer el Test!</a>
                 </div>
@@ -231,7 +246,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco5">
                     <h2 class="h2cont2">+2000 chicos<br>
-                    ya hicieron el test</h2>
+                    ya hicieron<br class="visibleres"><span class="invisibleres"> </span>el test</h2>
                     <div id="testimonio">
                         <img src="svgs/quotes.svg" id="quotessvg">
                         <img src="svgs/sample.png" id="imagentestimonio">
@@ -307,14 +322,14 @@
         <div id="confianza"></div>
     </section>
 
-    <section id="bggris">
+    <section id="bggrisfinal">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="contenedorblanco2">
                     <h2 id="h2confianza">Instituciones que confían en Viaedu</h2>
-                    <div>
-                        <img src="svgs/logo-wayra-01.svg" id="logoconfianza">
-                        <img src="svgs/logo-wayra-01.svg" id="logoconfianza">
+                    <div id="logosconfianza">
+                        <img src="svgs/logo-gobbsas.svg" id="logoconfianza" class="auxconfianza">
+                        <img src="svgs/logo-wayra-01.svg" id="logoconfianzad" class="fixwayra">
                         <div id="cleaner"></div>
                     </div>
                 </div>
@@ -324,8 +339,10 @@
 
     <footer>
         <div class="container">
+            <div id="espaciofooter1">
             <img src="svgs/viaedu-footer.svg" id="footerviaedu">
-            <ul class="list-inline">
+            </div>
+            <ul class="lista">
                 <li>
                     <a href="#" id="footerlinks">SOBRE NOSOTROS</a>
                 </li>
@@ -336,7 +353,9 @@
                     <a href="#" id="footerlinks">CONTACTANOS</a>
                 </li>
             </ul>
+            <div id="espaciofooter2">
             <a href="#"><img src="svgs/twitter-viaedu.svg" id="twviaedu"></a><a href="#"><img src="svgs/facebook-viaedu.svg" id="fbviaedu"></a>
+            </div>
         </div>
     </footer>
 
