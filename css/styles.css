@@ -274,6 +274,7 @@ div .carousel-inner{
 	text-align: center;
 	padding: 1% 0 3%;
 	margin-top: 2%;
+	max-height: 420px;
 }
 #contenedorinrosa2{
 	background-color: #FFF;
@@ -282,6 +283,16 @@ div .carousel-inner{
 	border-radius: 10px;
 	text-align: center;
 	padding: 3% 0;
+}
+#contenedorinrosa3{
+	background-color: #FFF;
+	width: 30%;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	padding: 1% 0 3%;
+	margin-top: 2%;
+	max-height: 420px;
 }
 #contenedorinrosa2 p{
 	padding: 5% 0;
@@ -721,6 +732,17 @@ nav ul li{
 	border-radius: 10px;
 	text-align: center;
 	padding: 3% 0 7%;
+	margin-left: 2.5%;
+	margin-bottom: 5%;
+}
+#contenedorinrosa3{
+	background-color: #FFF;
+	width: 95%;
+	float: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3% 0 7%;
+	margin-top: 2%;
 	margin-left: 2.5%;
 	margin-bottom: 5%;
 }
