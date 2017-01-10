@@ -212,9 +212,10 @@ div .carousel-inner{
 	padding-top: 2%;
 }
 #imagentestimonio{
-	width: 30%;
+	width: 20%;
 	float: left;
-	margin-left: -15%;
+	margin-left: -10%;
+	border-radius: 100%;
 }
 #quotessvg{
 	width: 7%;
@@ -273,7 +274,7 @@ div .carousel-inner{
 	border-radius: 10px;
 	text-align: center;
 	padding: 1% 0 3%;
-	margin-top: 2%;
+	margin-top: 4.8%;
 	max-height: 420px;
 }
 #contenedorinrosa2{
@@ -282,7 +283,8 @@ div .carousel-inner{
 	float: left;
 	border-radius: 10px;
 	text-align: center;
-	padding: 3% 0;
+	padding: 3.5% 0 5%;
+	margin-top: -0.5%;
 }
 #contenedorinrosa3{
 	background-color: #FFF;
@@ -291,11 +293,11 @@ div .carousel-inner{
 	border-radius: 10px;
 	text-align: center;
 	padding: 1% 0 3%;
-	margin-top: 2%;
+	margin-top: 4.8%;
 	max-height: 420px;
 }
 #contenedorinrosa2 p{
-	padding: 5% 0;
+	padding: 1% 0 8%;
 }
 .espacioextra2{
 	margin-right: 5%;
@@ -306,6 +308,10 @@ div .carousel-inner{
 #promo2{
 	margin-top: 3%;
 	width: 60%;
+}
+#ptxtrosa{
+	padding: none;
+	margin: 0;
 }
 #txtamarillo{
 	font-size: 54px;
@@ -337,7 +343,7 @@ div .carousel-inner{
 	font-size: 26px;
 	text-decoration: none;
 	color: rgb(86, 66, 115);
-	font-weight: 4	00;
+	font-weight: 400;
 }
 #h2confianza{
 	color: rgb(179, 179, 179);
