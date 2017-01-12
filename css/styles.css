@@ -887,12 +887,6 @@ footer ul li{
 	margin-top: 5%;
 }
 @media (max-width: 768px) and (orientation: landscape) {
-  .invisibleres{
-    display: none;
-  }
-  .visibleres{
-    display: inline;
- }
  header {
   background: url("../svgs/head-viaedu00.jpg") no-repeat center center fixed;
   background-size: cover;
