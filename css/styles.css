@@ -501,8 +501,8 @@ nav{
     display: inline;
  }
  header {
-  background: url("../svgs/head-viaedu00.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../svgs/head-viaedu00.jpg") no-repeat center center;
+  background-size: 250%;
   color: white;
 }
 #h1header{
@@ -554,10 +554,11 @@ nav ul li{
 #contenedorblanco{
 	background-color: #FFF;
 	padding-bottom: 7%;
-	margin-top: -45%;
+	margin-top: -48%;
 	text-align: center;
 	width: 95%;
 	margin-left: 2.5%;
+	margin-bottom: -10%;
 }
 #pcontenedor1{
 	color: rgb(86, 66, 115);
@@ -588,6 +589,7 @@ nav ul li{
 	text-align: center;
 	width: 95%;
 	margin-left: 2.5%;
+	margin-bottom: -10%;
 }
 .h2cont2{
 	font-size: 60px;
@@ -609,6 +611,7 @@ nav ul li{
 	text-align: left;
 	width: 95%;
 	margin-left: 2.5%;
+	margin-bottom: -10%;
 }
 #contenedorblanco3 h2{
 	padding: 15% 0 12%;
@@ -626,6 +629,7 @@ nav ul li{
 	padding-top: 5%;
 	width: 95%;
 	margin-left: 2.5%;
+	margin-bottom: -10%;
 }
 #contenedorwhy{
 	width: 100%;
@@ -701,11 +705,13 @@ nav ul li{
 	text-align: center;
 	width: 95%;
 	margin-left: 2.5%;
+	margin-bottom: -10%;
 }
 #bgrosa{
 	margin-top: -48%;
 	background-color: #fa4b8b;
 	box-sizing: border-box;
+	margin-bottom: -10%;
 }
 #elegituver{
 	text-align: center;
@@ -821,7 +827,7 @@ nav ul li{
 #bggrisfinal{
 	background-color: #E6E6E6;
 	box-sizing: border-box;
-	margin-bottom: -20%;
+	margin-bottom: -10%;
 }
 #footerviaedu{
 	margin-top: 1%;
