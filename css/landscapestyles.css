@@ -5,8 +5,8 @@
     display: inline;
 }
 header {
-  background: url("../svgs/head-viaedu00.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../svgs/head-viaedu00.jpg") no-repeat center center;
+  background-size: 250%;
   color: white;
 }
 #h1header{
@@ -34,6 +34,7 @@ nav ul li{
 #logoviaedusvgres{
 	width: 17%;
 	display: inline;
+	margin-top: 5%;
 	margin: auto;
 }
 .nav > li > a:hover,

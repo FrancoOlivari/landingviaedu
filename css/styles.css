@@ -530,6 +530,7 @@ nav ul li{
 #logoviaedusvgres{
 	width: 17%;
 	display: inline;
+	margin-top: 5%;
 	margin: auto;
 }
 .nav > li > a:hover,
